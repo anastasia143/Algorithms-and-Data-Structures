@@ -4,6 +4,7 @@
 #include "quick_sort.h"
 #include "merge_sort.h"
 #include "heap_sort.h"
+#include "bubble_sort.h"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ int main()
 		cout << array[i] << " ";
 	}
 
-	heap_sort(size, array);
+	bubble_sort(size, array);
 
 	cout << endl;
 

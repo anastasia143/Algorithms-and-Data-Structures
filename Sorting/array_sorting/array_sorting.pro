@@ -18,9 +18,11 @@ TEMPLATE = app
 SOURCES += main.cpp \
     quick_sort.cpp \
     merge_sort.cpp \
-    heap_sort.cpp
+    heap_sort.cpp \
+    bubble_sort.cpp
 
 HEADERS += \
     quick_sort.h \
     merge_sort.h \
-    heap_sort.h
+    heap_sort.h \
+    bubble_sort.h
