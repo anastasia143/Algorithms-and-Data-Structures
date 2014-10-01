@@ -2,25 +2,28 @@
 #include <iostream>
 
 #include "quick_sort.h"
+#include "merge_sort.h"
 
 using namespace std;
 
 int main()
 {
-	int size = 7;
+	int size = 17;
 	int* array = new int[size];
 
 	for(int i = 0; i < size; i++)
 	{
-		array[i] = rand() % size;
+		array[i] = rand() % (2 * size);
 		cout << array[i] << " ";
 	}
 
-	quick_sort(size, array);
+	merge_sort(size, array);
 
 	cout << endl;
 
 	for(int i = 0; i < size; i++)
 		cout << array[i] << " ";
+
+	delete []array;
 	return 0;
 }
