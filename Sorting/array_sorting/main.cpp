@@ -3,6 +3,7 @@
 
 #include "quick_sort.h"
 #include "merge_sort.h"
+#include "heap_sort.h"
 
 using namespace std;
 
@@ -17,7 +18,7 @@ int main()
 		cout << array[i] << " ";
 	}
 
-	merge_sort(size, array);
+	heap_sort(size, array);
 
 	cout << endl;
 
