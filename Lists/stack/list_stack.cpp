@@ -43,7 +43,7 @@ void ListStack::push(int value)
 void ListStack::pop()
 {
 	if (size == 0)
-		cout << "Stack is empty";
+		return;
 	else if (size == 1)
 	{
 		ListElement *temp = head;

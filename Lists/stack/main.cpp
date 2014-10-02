@@ -14,7 +14,7 @@ int main()
 	int command = 0;
 	cin >> command;
 
-	Stack* stack = createStack(command);
+	Stack* stack = create_stack(command);
 	interface(stack);
 	delete stack;
 

@@ -8,6 +8,6 @@
 
 using namespace std;
 
-Stack* createStack(int command);
+Stack* create_stack(int command);
 void interface(Stack* stack);
 #endif // INTERFACE_H

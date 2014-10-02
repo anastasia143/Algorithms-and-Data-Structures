@@ -1,6 +1,6 @@
 #include "interface.h"
 
-Stack* createStack(int command)
+Stack* create_stack(int command)
 {
 	if(command == 2)
 		return new ArrayStack;
