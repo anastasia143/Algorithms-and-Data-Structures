@@ -1,5 +1,13 @@
 #include "interface.h"
 
+Stack* createStack(int command)
+{
+	if(command == 2)
+		return new ArrayStack;
+	else
+		return new ListStack;
+}
+
 void interface(Stack* stack)
 {
 	cout << endl << "What do you want to do with your stack?" <<

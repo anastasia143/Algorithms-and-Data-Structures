@@ -17,9 +17,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     list_stack.cpp \
-    interface.cpp
+    interface.cpp \
+    array_stack.cpp
 
 HEADERS += \
     stack.h \
     list_stack.h \
-    interface.h
+    interface.h \
+    array_stack.h
